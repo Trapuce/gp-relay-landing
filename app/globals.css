@@ -10,6 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Brand colors replacing blue with #067A45 */
+  --color-brand-50: #e6f2ec;
+  --color-brand-100: #c1e0d0;
+  --color-brand-200: #98ceb1;
+  --color-brand-300: #6ebb91;
+  --color-brand-400: #4ba878;
+  --color-brand-500: #067A45;
+  --color-brand-600: #046237;
+  --color-brand-700: #034b29;
+  --color-brand-800: #02331b;
+  --color-brand-900: #011c0f;
+
+  --color-accent: #ff4040; /* Red accents for play button etc. */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +37,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
