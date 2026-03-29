@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "GP Relay — Expédition rapide de colis et bagages",
-  description: "GP Relay vous permet d'envoyer vos colis et bagages rapidement et à prix abordable. Rejoignez plus de 100 000 utilisateurs satisfaits.",
+  description: "GP Relay vous permet d'envoyer vos colis et bagages entre Paris et l'Afrique de l'Ouest — Bamako, Abidjan, Dakar, Conakry. Rapide, fiable et abordable.",
 };
 
 export default function RootLayout({

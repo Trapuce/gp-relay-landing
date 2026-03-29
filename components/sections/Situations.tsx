@@ -26,7 +26,7 @@ const situations = [
   },
   {
     icon: <ShoppingBag className="w-10 h-10 text-brand-500" />,
-    text: "Expédier des achats entre Paris et Dakar"
+    text: "Expédier des achats entre Paris et l'Afrique de l'Ouest"
   }
 ];
 
