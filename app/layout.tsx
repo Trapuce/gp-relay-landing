@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gprelay.com"),
   title: "GP Relay — Expédition rapide de colis et bagages",
   description: "GP Relay vous permet d'envoyer vos colis et bagages entre Paris et l'Afrique de l'Ouest — Bamako, Abidjan, Dakar, Conakry. Rapide, fiable et abordable.",
 };
@@ -23,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

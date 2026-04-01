@@ -26,12 +26,7 @@
   --color-accent: #ff4040; /* Red accents for play button etc. */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Dark mode intentionally disabled — brand uses fixed green/white palette */
 
 body {
   background: var(--background);
