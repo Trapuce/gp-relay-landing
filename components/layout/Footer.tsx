@@ -12,8 +12,8 @@ export function Footer() {
               <Image
                 src="/GP RELAY.png"
                 alt="GP Relay"
-                width={120}
-                height={48}
+                width={280}
+                height={112}
                 className="object-contain"
               />
             </Link>
