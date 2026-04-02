@@ -3,9 +3,10 @@ import { Footer } from "@/components/layout/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conditions Générales de Vente — GP Relay",
+  title: "Conditions Générales de Vente",
   description:
     "Conditions Générales de Vente de la plateforme GPRelay — tarifs, paiements, annulations, remboursements.",
+  robots: { index: false, follow: false },
 };
 
 export default function CGV() {

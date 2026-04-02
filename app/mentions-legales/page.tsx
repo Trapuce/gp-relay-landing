@@ -3,9 +3,10 @@ import { Footer } from "@/components/layout/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mentions Légales — GP Relay",
+  title: "Mentions Légales",
   description:
     "Mentions légales de la plateforme GPRelay — éditeur, hébergement, propriété intellectuelle.",
+  robots: { index: false, follow: false },
 };
 
 export default function MentionsLegales() {

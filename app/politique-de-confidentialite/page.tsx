@@ -3,9 +3,10 @@ import { Footer } from "@/components/layout/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité — GP Relay",
+  title: "Politique de Confidentialité",
   description:
     "Découvrez comment GP Relay collecte, utilise et protège vos données personnelles conformément au RGPD.",
+  robots: { index: false, follow: false },
 };
 
 export default function PolitiqueDeConfidentialite() {
